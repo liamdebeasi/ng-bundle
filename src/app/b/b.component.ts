@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { IonBadge } from '@ionic/angular/standalone';
+import { IonBadge } from '../../ionic-test';
+
+console.log(IonBadge)
 
 @Component({
   selector: 'app-b',
   standalone: true,
-  imports: [CommonModule, IonBadge],
+  imports: [CommonModule],
   templateUrl: './b.component.html',
   styleUrls: ['./b.component.css']
 })

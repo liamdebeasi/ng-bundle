@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { IonChip } from '@ionic/angular/standalone';
+import { IonChip } from '../../ionic-test';
+
+console.log(IonChip);
 
 @Component({
   selector: 'app-a',
   standalone: true,
-  imports: [CommonModule, IonChip],
+  imports: [CommonModule],
   templateUrl: './a.component.html',
   styleUrls: ['./a.component.css']
 })
